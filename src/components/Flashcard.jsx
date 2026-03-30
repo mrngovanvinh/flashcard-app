@@ -2,24 +2,25 @@ import React from "react";
 import { RotateCw, Volume2 } from "lucide-react";
 
 const Flashcard = ({ card, isFlipped, onFlip }) => {
-  const playAudio = (e) => {
-    e.stopPropagation(); // Prevent card from flipping when clicking audio
-    
-    // Stop any currently playing audio
+  const speak = (text, lang) => {
     window.speechSynthesis.cancel();
-    
-    const utterance = new SpeechSynthesisUtterance(card.vi);
-    utterance.lang = "vi-VN";
-    utterance.rate = 0.9; // slightly slower for kids
-    
-    // Explicitly try to find a native Vietnamese voice
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = lang;
+    utterance.rate = 0.9;
     const voices = window.speechSynthesis.getVoices();
-    const viVoice = voices.find(voice => voice.lang === "vi-VN" || voice.lang.includes("vi"));
-    if (viVoice) {
-      utterance.voice = viVoice;
-    }
-    
+    const voice = voices.find(v => v.lang === lang || v.lang.startsWith(lang.split('-')[0]));
+    if (voice) utterance.voice = voice;
     window.speechSynthesis.speak(utterance);
+  };
+
+  const playViAudio = (e) => {
+    e.stopPropagation();
+    speak(card.vi, "vi-VN");
+  };
+
+  const playEnAudio = (e) => {
+    e.stopPropagation();
+    speak(card.en, "en-US");
   };
 
   return (
@@ -37,14 +38,22 @@ const Flashcard = ({ card, isFlipped, onFlip }) => {
                 className="card-image" 
                 style={card.id === 'cat' ? { mixBlendMode: 'multiply' } : {}} 
               />
-
             ) : (
               <span className="card-emoji">{card.emoji}</span>
             )}
           </div>
-          <button className="audio-btn" onClick={playAudio} aria-label="Listen">
-            <Volume2 size={32} />
-          </button>
+
+          <div className="audio-btn-row">
+            <button className="audio-btn audio-vi" onClick={playViAudio} aria-label="Nghe tiếng Việt" title="Tiếng Việt 🇻🇳">
+              <Volume2 size={26} />
+              <span className="audio-label">VI</span>
+            </button>
+            <button className="audio-btn audio-en" onClick={playEnAudio} aria-label="Listen in English" title="English 🇬🇧">
+              <Volume2 size={26} />
+              <span className="audio-label">EN</span>
+            </button>
+          </div>
+
           <div className="flip-hint">
             <RotateCw size={24} />
             <span>Chạm để lật</span>
@@ -55,9 +64,16 @@ const Flashcard = ({ card, isFlipped, onFlip }) => {
         <div className="flashcard-face flashcard-back">
           <div className="vocab-vi">{card.vi}</div>
           <div className="vocab-en">{card.en}</div>
-          <button className="audio-btn" onClick={playAudio} aria-label="Listen">
-            <Volume2 size={32} />
-          </button>
+          <div className="audio-btn-row">
+            <button className="audio-btn audio-vi back-audio" onClick={playViAudio} aria-label="Nghe tiếng Việt" title="Tiếng Việt 🇻🇳">
+              <Volume2 size={26} />
+              <span className="audio-label">VI</span>
+            </button>
+            <button className="audio-btn audio-en back-audio" onClick={playEnAudio} aria-label="Listen in English" title="English 🇬🇧">
+              <Volume2 size={26} />
+              <span className="audio-label">EN</span>
+            </button>
+          </div>
           <div className="flip-hint">
             <RotateCw size={24} />
             <span>Trở lại</span>

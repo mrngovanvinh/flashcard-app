@@ -56,8 +56,8 @@ body {
 
 .topics-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
   padding: 1rem;
 }
 
@@ -338,27 +338,48 @@ body {
   box-shadow: 0 0 0 rgba(0,0,0,0.15);
 }
 
+.audio-btn-row {
+  display: flex;
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
 .audio-btn {
   background: white;
   color: var(--active-color);
   border: 3px solid #eee;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
+  border-radius: 30px;
+  padding: 0.5rem 1rem;
   display: flex;
   align-items: center;
-  justify-content: center;
+  gap: 0.4rem;
   cursor: pointer;
   box-shadow: 0 6px 0 #eee;
   transition: all 0.1s;
-  margin-top: 1rem;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
 }
 
-.flashcard-back .audio-btn {
-  color: var(--active-color);
-  background: white;
-  border-color: rgba(255,255,255,0.8);
-  box-shadow: 0 6px 0 rgba(255,255,255,0.8);
+.audio-vi {
+  border-color: #ffb3ba;
+  box-shadow: 0 6px 0 #ffb3ba;
+  color: #e63946;
+}
+
+.audio-en {
+  border-color: #a8d8ea;
+  box-shadow: 0 6px 0 #a8d8ea;
+  color: #1d7fc7;
+}
+
+.audio-label {
+  font-size: 0.9rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.back-audio {
+  background: rgba(255,255,255,0.9);
 }
 
 .audio-btn:active {
@@ -658,6 +679,7 @@ body {
   font-weight: 700;
 }
 
+
 /* responsive */
 @media (max-width: 768px) {
   .main-title { font-size: 2.5rem; }
@@ -675,4 +697,27 @@ body {
   .loud-btn { padding: 1rem 2rem; font-size: 1.4rem; }
   .viewer-header { flex-direction: column; align-items: stretch; gap: 1rem; }
   .nav-btn.icon-btn { align-self: center; }
+}
+
+/* Tablets: 3 columns */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .topics-grid { grid-template-columns: repeat(3, 1fr); gap: 1.2rem; }
+  .topic-card { padding: 1.5rem 0.8rem; }
+  .topic-icon-wrapper { width: 80px; height: 80px; }
+  .topic-icon { font-size: 3.5rem; }
+}
+
+.swipe-hint {
+  text-align: center;
+  color: rgba(0,0,0,0.2);
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 0.8rem;
+  letter-spacing: 2px;
+  display: none;
+}
+
+@media (hover: none) {
+  /* Show swipe hint only on touch devices */
+  .swipe-hint { display: block; }
 }

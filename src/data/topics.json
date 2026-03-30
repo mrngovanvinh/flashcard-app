@@ -188,5 +188,195 @@
       { "id": "robot", "vi": "Người máy", "en": "Robot", "emoji": "🤖", "image": null },
       { "id": "yoyo", "vi": "Yô-yô", "en": "Yo-yo", "emoji": "🪀", "image": null }
     ]
+  },
+  {
+    "id": "sea_animal",
+    "title": "Sea Animals",
+    "titleVi": "Động vật biển",
+    "color": "#48CAE4",
+    "icon": "🐠",
+    "cards": [
+      { "id": "shark", "vi": "Cá mập", "en": "Shark", "emoji": "🦈", "image": null },
+      { "id": "whale", "vi": "Cá voi", "en": "Whale", "emoji": "🐋", "image": null },
+      { "id": "dolphin", "vi": "Cá heo", "en": "Dolphin", "emoji": "🐬", "image": null },
+      { "id": "octopus", "vi": "Bạch tuộc", "en": "Octopus", "emoji": "🐙", "image": null },
+      { "id": "crab", "vi": "Con cua", "en": "Crab", "emoji": "🦀", "image": null },
+      { "id": "turtle", "vi": "Con rùa", "en": "Turtle", "emoji": "🐢", "image": null },
+      { "id": "seahorse", "vi": "Cá ngựa", "en": "Seahorse", "emoji": "🦄", "image": null },
+      { "id": "lobster", "vi": "Con tôm hùm", "en": "Lobster", "emoji": "🦞", "image": null },
+      { "id": "jellyfish", "vi": "Con sứa", "en": "Jellyfish", "emoji": "🪼", "image": null },
+      { "id": "shrimp", "vi": "Con tôm", "en": "Shrimp", "emoji": "🦐", "image": null }
+    ]
+  },
+  {
+    "id": "bird",
+    "title": "Birds",
+    "titleVi": "Các loài chim",
+    "color": "#FFC8DD",
+    "icon": "🦜",
+    "cards": [
+      { "id": "parrot", "vi": "Con vẹt", "en": "Parrot", "emoji": "🦜", "image": null },
+      { "id": "eagle", "vi": "Chim đại bàng", "en": "Eagle", "emoji": "🦅", "image": null },
+      { "id": "owl", "vi": "Chim cú", "en": "Owl", "emoji": "🦉", "image": null },
+      { "id": "flamingo", "vi": "Chim hồng hạc", "en": "Flamingo", "emoji": "🦩", "image": null },
+      { "id": "swan", "vi": "Con thiên nga", "en": "Swan", "emoji": "🦢", "image": null },
+      { "id": "chick", "vi": "Con gà con", "en": "Chick", "emoji": "🐣", "image": null },
+      { "id": "duck", "vi": "Con vịt", "en": "Duck", "emoji": "🦆", "image": null },
+      { "id": "peacock", "vi": "Chim công", "en": "Peacock", "emoji": "🦚", "image": null },
+      { "id": "toucan", "vi": "Chim toucan", "en": "Toucan", "emoji": "🦤", "image": null },
+      { "id": "pigeon", "vi": "Chim bồ câu", "en": "Pigeon", "emoji": "🕊️", "image": null }
+    ]
+  },
+  {
+    "id": "insect",
+    "title": "Insects",
+    "titleVi": "Côn trùng",
+    "color": "#B7E4C7",
+    "icon": "🦋",
+    "cards": [
+      { "id": "butterfly", "vi": "Con bướm", "en": "Butterfly", "emoji": "🦋", "image": null },
+      { "id": "bee", "vi": "Con ong", "en": "Bee", "emoji": "🐝", "image": null },
+      { "id": "ladybug", "vi": "Con bọ rùa", "en": "Ladybug", "emoji": "🐞", "image": null },
+      { "id": "ant", "vi": "Con kiến", "en": "Ant", "emoji": "🐜", "image": null },
+      { "id": "caterpillar", "vi": "Con sâu bướm", "en": "Caterpillar", "emoji": "🐛", "image": null },
+      { "id": "grasshopper", "vi": "Con châu chấu", "en": "Grasshopper", "emoji": "🦗", "image": null },
+      { "id": "spider", "vi": "Con nhện", "en": "Spider", "emoji": "🕷️", "image": null },
+      { "id": "snail", "vi": "Con ốc sên", "en": "Snail", "emoji": "🐌", "image": null },
+      { "id": "worm", "vi": "Con sâu đất", "en": "Worm", "emoji": "🪱", "image": null },
+      { "id": "mosquito", "vi": "Con muỗi", "en": "Mosquito", "emoji": "🦟", "image": null }
+    ]
+  },
+  {
+    "id": "weather",
+    "title": "Weather",
+    "titleVi": "Thời tiết",
+    "color": "#ADE8F4",
+    "icon": "⛅",
+    "cards": [
+      { "id": "sunny", "vi": "Trời nắng", "en": "Sunny", "emoji": "☀️", "image": null },
+      { "id": "rainy", "vi": "Trời mưa", "en": "Rainy", "emoji": "🌧️", "image": null },
+      { "id": "cloudy", "vi": "Trời nhiều mây", "en": "Cloudy", "emoji": "☁️", "image": null },
+      { "id": "snowy", "vi": "Trời tuyết", "en": "Snowy", "emoji": "❄️", "image": null },
+      { "id": "windy", "vi": "Trời có gió", "en": "Windy", "emoji": "💨", "image": null },
+      { "id": "stormy", "vi": "Trời bão", "en": "Stormy", "emoji": "⛈️", "image": null },
+      { "id": "rainbow", "vi": "Cầu vồng", "en": "Rainbow", "emoji": "🌈", "image": null },
+      { "id": "foggy", "vi": "Trời sương mù", "en": "Foggy", "emoji": "🌫️", "image": null },
+      { "id": "lightning", "vi": "Tia sét", "en": "Lightning", "emoji": "⚡", "image": null },
+      { "id": "hot", "vi": "Trời nóng", "en": "Hot", "emoji": "🌡️", "image": null }
+    ]
+  },
+  {
+    "id": "transport",
+    "title": "Transport",
+    "titleVi": "Phương tiện",
+    "color": "#F9C74F",
+    "icon": "🚀",
+    "cards": [
+      { "id": "bicycle", "vi": "Xe đạp", "en": "Bicycle", "emoji": "🚲", "image": null },
+      { "id": "bus", "vi": "Xe buýt", "en": "Bus", "emoji": "🚌", "image": null },
+      { "id": "airplane", "vi": "Máy bay", "en": "Airplane", "emoji": "✈️", "image": null },
+      { "id": "ship", "vi": "Con tàu", "en": "Ship", "emoji": "🚢", "image": null },
+      { "id": "rocket", "vi": "Tên lửa", "en": "Rocket", "emoji": "🚀", "image": null },
+      { "id": "ambulance", "vi": "Xe cứu thương", "en": "Ambulance", "emoji": "🚑", "image": null },
+      { "id": "firetruck", "vi": "Xe cứu hỏa", "en": "Fire Truck", "emoji": "🚒", "image": null },
+      { "id": "helicopter", "vi": "Trực thăng", "en": "Helicopter", "emoji": "🚁", "image": null },
+      { "id": "taxi", "vi": "Xe taxi", "en": "Taxi", "emoji": "🚕", "image": null },
+      { "id": "scooter", "vi": "Xe máy", "en": "Scooter", "emoji": "🛵", "image": null }
+    ]
+  },
+  {
+    "id": "space",
+    "title": "Space",
+    "titleVi": "Vũ trụ",
+    "color": "#7B2FBE",
+    "icon": "🌙",
+    "cards": [
+      { "id": "sun2", "vi": "Mặt trời", "en": "Sun", "emoji": "🌞", "image": null },
+      { "id": "moon", "vi": "Mặt trăng", "en": "Moon", "emoji": "🌙", "image": null },
+      { "id": "star2", "vi": "Ngôi sao", "en": "Star", "emoji": "⭐", "image": null },
+      { "id": "planet", "vi": "Hành tinh", "en": "Planet", "emoji": "🪐", "image": null },
+      { "id": "rocket2", "vi": "Tên lửa", "en": "Rocket", "emoji": "🛸", "image": null },
+      { "id": "astronaut", "vi": "Phi hành gia", "en": "Astronaut", "emoji": "👨‍🚀", "image": null },
+      { "id": "alien", "vi": "Người ngoài hành tinh", "en": "Alien", "emoji": "👽", "image": null },
+      { "id": "telescope", "vi": "Kính thiên văn", "en": "Telescope", "emoji": "🔭", "image": null },
+      { "id": "meteor", "vi": "Sao chổi", "en": "Meteor", "emoji": "☄️", "image": null },
+      { "id": "galaxy", "vi": "Dải Ngân hà", "en": "Galaxy", "emoji": "🌌", "image": null }
+    ]
+  },
+  {
+    "id": "sport",
+    "title": "Sports",
+    "titleVi": "Thể thao",
+    "color": "#F3722C",
+    "icon": "⚽",
+    "cards": [
+      { "id": "soccer", "vi": "Bóng đá", "en": "Soccer", "emoji": "⚽", "image": null },
+      { "id": "basketball", "vi": "Bóng rổ", "en": "Basketball", "emoji": "🏀", "image": null },
+      { "id": "swimming", "vi": "Bơi lội", "en": "Swimming", "emoji": "🏊", "image": null },
+      { "id": "tennis", "vi": "Quần vợt", "en": "Tennis", "emoji": "🎾", "image": null },
+      { "id": "cycling", "vi": "Đua xe đạp", "en": "Cycling", "emoji": "🚴", "image": null },
+      { "id": "running", "vi": "Chạy bộ", "en": "Running", "emoji": "🏃", "image": null },
+      { "id": "baseball", "vi": "Bóng chày", "en": "Baseball", "emoji": "⚾", "image": null },
+      { "id": "gymnastics", "vi": "Thể dục dụng cụ", "en": "Gymnastics", "emoji": "🤸", "image": null },
+      { "id": "golf", "vi": "Đánh gôn", "en": "Golf", "emoji": "⛳", "image": null },
+      { "id": "skiing", "vi": "Trượt tuyết", "en": "Skiing", "emoji": "⛷️", "image": null }
+    ]
+  },
+  {
+    "id": "music",
+    "title": "Music",
+    "titleVi": "Âm nhạc",
+    "color": "#F72585",
+    "icon": "🎵",
+    "cards": [
+      { "id": "guitar", "vi": "Đàn ghi ta", "en": "Guitar", "emoji": "🎸", "image": null },
+      { "id": "piano", "vi": "Đàn piano", "en": "Piano", "emoji": "🎹", "image": null },
+      { "id": "drum", "vi": "Trống", "en": "Drum", "emoji": "🥁", "image": null },
+      { "id": "violin", "vi": "Đàn vi-ô-lông", "en": "Violin", "emoji": "🎻", "image": null },
+      { "id": "trumpet", "vi": "Kèn trumpet", "en": "Trumpet", "emoji": "🎺", "image": null },
+      { "id": "microphone", "vi": "Micro", "en": "Microphone", "emoji": "🎤", "image": null },
+      { "id": "saxophone", "vi": "Kèn saxophone", "en": "Saxophone", "emoji": "🎷", "image": null },
+      { "id": "flute", "vi": "Sáo", "en": "Flute", "emoji": "🪈", "image": null },
+      { "id": "accordion", "vi": "Đàn accordion", "en": "Accordion", "emoji": "🪗", "image": null },
+      { "id": "music_note", "vi": "Nốt nhạc", "en": "Music Note", "emoji": "🎵", "image": null }
+    ]
+  },
+  {
+    "id": "school",
+    "title": "School",
+    "titleVi": "Trường học",
+    "color": "#90E0EF",
+    "icon": "🎒",
+    "cards": [
+      { "id": "backpack", "vi": "Cái ba lô", "en": "Backpack", "emoji": "🎒", "image": null },
+      { "id": "pencil", "vi": "Cây bút chì", "en": "Pencil", "emoji": "✏️", "image": null },
+      { "id": "ruler", "vi": "Cái thước kẻ", "en": "Ruler", "emoji": "📏", "image": null },
+      { "id": "eraser", "vi": "Cục tẩy", "en": "Eraser", "emoji": "🧽", "image": null },
+      { "id": "book", "vi": "Quyển sách", "en": "Book", "emoji": "📚", "image": null },
+      { "id": "scissors", "vi": "Cái kéo", "en": "Scissors", "emoji": "✂️", "image": null },
+      { "id": "glue", "vi": "Keo dán", "en": "Glue", "emoji": "🖇️", "image": null },
+      { "id": "crayon", "vi": "Bút màu sáp", "en": "Crayon", "emoji": "🖍️", "image": null },
+      { "id": "calculator", "vi": "Máy tính", "en": "Calculator", "emoji": "🧮", "image": null },
+      { "id": "globe", "vi": "Quả địa cầu", "en": "Globe", "emoji": "🌍", "image": null }
+    ]
+  },
+  {
+    "id": "feeling",
+    "title": "Feelings",
+    "titleVi": "Cảm xúc",
+    "color": "#FFBA08",
+    "icon": "😊",
+    "cards": [
+      { "id": "happy", "vi": "Vui vẻ", "en": "Happy", "emoji": "😊", "image": null },
+      { "id": "sad", "vi": "Buồn", "en": "Sad", "emoji": "😢", "image": null },
+      { "id": "angry", "vi": "Tức giận", "en": "Angry", "emoji": "😠", "image": null },
+      { "id": "scared", "vi": "Sợ hãi", "en": "Scared", "emoji": "😱", "image": null },
+      { "id": "surprised", "vi": "Ngạc nhiên", "en": "Surprised", "emoji": "😮", "image": null },
+      { "id": "tired", "vi": "Mệt mỏi", "en": "Tired", "emoji": "😴", "image": null },
+      { "id": "excited", "vi": "Hào hứng", "en": "Excited", "emoji": "🤩", "image": null },
+      { "id": "confused", "vi": "Bối rối", "en": "Confused", "emoji": "😕", "image": null },
+      { "id": "silly", "vi": "Buồn cười", "en": "Silly", "emoji": "🤪", "image": null },
+      { "id": "love", "vi": "Yêu thương", "en": "Love", "emoji": "🥰", "image": null }
+    ]
   }
 ]
