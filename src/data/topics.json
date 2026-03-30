@@ -1,0 +1,192 @@
+[
+  {
+    "id": "animal",
+    "title": "Animals",
+    "titleVi": "Động vật",
+    "color": "#FF9A9E",
+    "icon": "🦁",
+    "cards": [
+      { "id": "dog", "vi": "Con chó", "en": "Dog", "emoji": "🐶", "image": "/images/dog.png" },
+      { "id": "cat", "vi": "Con mèo", "en": "Cat", "emoji": "🐱", "image": "/images/cat.png" },
+      { "id": "elephant", "vi": "Con voi", "en": "Elephant", "emoji": "🐘", "image": "/images/elephant.png" },
+      { "id": "lion", "vi": "Con sư tử", "en": "Lion", "emoji": "🦁", "image": "/images/lion.png" },
+      { "id": "monkey", "vi": "Con khỉ", "en": "Monkey", "emoji": "🐒", "image": "/images/monkey.png" },
+      { "id": "tiger", "vi": "Con hổ", "en": "Tiger", "emoji": "🐯", "image": "/images/tiger.png" },
+      { "id": "bear", "vi": "Con gấu", "en": "Bear", "emoji": "🐻", "image": null },
+      { "id": "rabbit", "vi": "Con thỏ", "en": "Rabbit", "emoji": "🐰", "image": null },
+      { "id": "mouse", "vi": "Con chuột", "en": "Mouse", "emoji": "🐭", "image": null },
+      { "id": "penguin", "vi": "Chim cánh cụt", "en": "Penguin", "emoji": "🐧", "image": null }
+    ]
+  },
+  {
+    "id": "fruit",
+    "title": "Fruits",
+    "titleVi": "Trái cây",
+    "color": "#FECFEF",
+    "icon": "🍎",
+    "cards": [
+      { "id": "apple", "vi": "Quả táo", "en": "Apple", "emoji": "🍎", "image": null },
+      { "id": "banana", "vi": "Quả chuối", "en": "Banana", "emoji": "🍌", "image": null },
+      { "id": "orange", "vi": "Quả cam", "en": "Orange", "emoji": "🍊", "image": null },
+      { "id": "grape", "vi": "Quả nho", "en": "Grape", "emoji": "🍇", "image": null },
+      { "id": "watermelon", "vi": "Dưa hấu", "en": "Watermelon", "emoji": "🍉", "image": null },
+      { "id": "strawberry", "vi": "Dâu tây", "en": "Strawberry", "emoji": "🍓", "image": null },
+      { "id": "mango", "vi": "Quả xoài", "en": "Mango", "emoji": "🥭", "image": null },
+      { "id": "pineapple", "vi": "Quả dứa", "en": "Pineapple", "emoji": "🍍", "image": null },
+      { "id": "peach", "vi": "Quả đào", "en": "Peach", "emoji": "🍑", "image": null },
+      { "id": "pear", "vi": "Quả lê", "en": "Pear", "emoji": "🍐", "image": null }
+    ]
+  },
+  {
+    "id": "vegetable",
+    "title": "Vegetables",
+    "titleVi": "Rau củ",
+    "color": "#A1C4FD",
+    "icon": "🥕",
+    "cards": [
+      { "id": "carrot", "vi": "Củ cà rốt", "en": "Carrot", "emoji": "🥕", "image": null },
+      { "id": "potato", "vi": "Củ khoai tây", "en": "Potato", "emoji": "🥔", "image": null },
+      { "id": "tomato", "vi": "Quả cà chua", "en": "Tomato", "emoji": "🍅", "image": null },
+      { "id": "onion", "vi": "Củ hành", "en": "Onion", "emoji": "🧅", "image": null },
+      { "id": "broccoli", "vi": "Súp lơ", "en": "Broccoli", "emoji": "🥦", "image": null },
+      { "id": "cucumber", "vi": "Dưa chuột", "en": "Cucumber", "emoji": "🥒", "image": null },
+      { "id": "cabbage", "vi": "Bắp cải", "en": "Cabbage", "emoji": "🥬", "image": null },
+      { "id": "corn", "vi": "Bắp / Ngô", "en": "Corn", "emoji": "🌽", "image": null },
+      { "id": "pumpkin", "vi": "Bí ngô", "en": "Pumpkin", "emoji": "🎃", "image": null },
+      { "id": "mushroom", "vi": "Cây nấm", "en": "Mushroom", "emoji": "🍄", "image": null }
+    ]
+  },
+  {
+    "id": "color",
+    "title": "Colors",
+    "titleVi": "Màu sắc",
+    "color": "#FEE140",
+    "icon": "🎨",
+    "cards": [
+      { "id": "red", "vi": "Màu đỏ", "en": "Red", "emoji": "🔴", "image": null },
+      { "id": "blue", "vi": "Màu xanh dương", "en": "Blue", "emoji": "🔵", "image": null },
+      { "id": "green", "vi": "Màu xanh lá", "en": "Green", "emoji": "🟢", "image": null },
+      { "id": "yellow", "vi": "Màu vàng", "en": "Yellow", "emoji": "🟡", "image": null },
+      { "id": "orange_c", "vi": "Màu cam", "en": "Orange", "emoji": "🟠", "image": null },
+      { "id": "purple", "vi": "Màu tím", "en": "Purple", "emoji": "🟣", "image": null },
+      { "id": "pink", "vi": "Màu hồng", "en": "Pink", "emoji": "🩷", "image": null },
+      { "id": "black", "vi": "Màu đen", "en": "Black", "emoji": "⚫", "image": null },
+      { "id": "white", "vi": "Màu trắng", "en": "White", "emoji": "⚪", "image": null },
+      { "id": "brown", "vi": "Màu nâu", "en": "Brown", "emoji": "🟤", "image": null }
+    ]
+  },
+  {
+    "id": "number",
+    "title": "Numbers",
+    "titleVi": "Chữ số",
+    "color": "#84FAB0",
+    "icon": "1️⃣",
+    "cards": [
+      { "id": "one", "vi": "Số một", "en": "One", "emoji": "1️⃣", "image": null },
+      { "id": "two", "vi": "Số hai", "en": "Two", "emoji": "2️⃣", "image": null },
+      { "id": "three", "vi": "Số ba", "en": "Three", "emoji": "3️⃣", "image": null },
+      { "id": "four", "vi": "Số bốn", "en": "Four", "emoji": "4️⃣", "image": null },
+      { "id": "five", "vi": "Số năm", "en": "Five", "emoji": "5️⃣", "image": null },
+      { "id": "six", "vi": "Số sáu", "en": "Six", "emoji": "6️⃣", "image": null },
+      { "id": "seven", "vi": "Số bảy", "en": "Seven", "emoji": "7️⃣", "image": null },
+      { "id": "eight", "vi": "Số tám", "en": "Eight", "emoji": "8️⃣", "image": null },
+      { "id": "nine", "vi": "Số chín", "en": "Nine", "emoji": "9️⃣", "image": null },
+      { "id": "ten", "vi": "Số mười", "en": "Ten", "emoji": "🔟", "image": null }
+    ]
+  },
+  {
+    "id": "shape",
+    "title": "Shapes",
+    "titleVi": "Hình dạng",
+    "color": "#C2E9FB",
+    "icon": "⭐",
+    "cards": [
+      { "id": "circle", "vi": "Hình tròn", "en": "Circle", "emoji": "⭕", "image": null },
+      { "id": "square", "vi": "Hình vuông", "en": "Square", "emoji": "🟦", "image": null },
+      { "id": "triangle", "vi": "Hình tam giác", "en": "Triangle", "emoji": "🔺", "image": null },
+      { "id": "rectangle", "vi": "Hình chữ nhật", "en": "Rectangle", "emoji": "▭", "image": null },
+      { "id": "star", "vi": "Hình ngôi sao", "en": "Star", "emoji": "⭐", "image": null },
+      { "id": "heart", "vi": "Hình trái tim", "en": "Heart", "emoji": "❤️", "image": null },
+      { "id": "oval", "vi": "Hình bầu dục", "en": "Oval", "emoji": "🥚", "image": null },
+      { "id": "diamond", "vi": "Hình thoi", "en": "Diamond", "emoji": "♦️", "image": null },
+      { "id": "pentagon", "vi": "Hình ngũ giác", "en": "Pentagon", "emoji": "⬟", "image": null },
+      { "id": "hexagon", "vi": "Hình lục giác", "en": "Hexagon", "emoji": "⬢", "image": null }
+    ]
+  },
+  {
+    "id": "body_part",
+    "title": "Body Parts",
+    "titleVi": "Cơ thể",
+    "color": "#FCCB90",
+    "icon": "👋",
+    "cards": [
+      { "id": "head", "vi": "Cái đầu", "en": "Head", "emoji": "👤", "image": null },
+      { "id": "eye", "vi": "Con mắt", "en": "Eye", "emoji": "👁️", "image": null },
+      { "id": "ear", "vi": "Cái tai", "en": "Ear", "emoji": "👂", "image": null },
+      { "id": "nose", "vi": "Cái mũi", "en": "Nose", "emoji": "👃", "image": null },
+      { "id": "mouth", "vi": "Cái miệng", "en": "Mouth", "emoji": "👄", "image": null },
+      { "id": "arm", "vi": "Cánh tay", "en": "Arm", "emoji": "💪", "image": null },
+      { "id": "hand", "vi": "Bàn tay", "en": "Hand", "emoji": "🖐️", "image": null },
+      { "id": "leg", "vi": "Cái chân", "en": "Leg", "emoji": "🦵", "image": null },
+      { "id": "foot", "vi": "Bàn chân", "en": "Foot", "emoji": "🦶", "image": null },
+      { "id": "hair", "vi": "Tóc", "en": "Hair", "emoji": "💇", "image": null }
+    ]
+  },
+  {
+    "id": "clothing",
+    "title": "Clothes",
+    "titleVi": "Quần áo",
+    "color": "#D4FC79",
+    "icon": "👗",
+    "cards": [
+      { "id": "shirt", "vi": "Áo sơ mi", "en": "Shirt", "emoji": "👕", "image": null },
+      { "id": "pants", "vi": "Quần dài", "en": "Pants", "emoji": "👖", "image": null },
+      { "id": "dress", "vi": "Cái váy", "en": "Dress", "emoji": "👗", "image": null },
+      { "id": "skirt", "vi": "Chân váy", "en": "Skirt", "emoji": "🥻", "image": null },
+      { "id": "shoes", "vi": "Đôi giày", "en": "Shoes", "emoji": "👞", "image": null },
+      { "id": "socks", "vi": "Đôi tất", "en": "Socks", "emoji": "🧦", "image": null },
+      { "id": "hat", "vi": "Cái mũ", "en": "Hat", "emoji": "🧢", "image": null },
+      { "id": "jacket", "vi": "Áo khoác", "en": "Jacket", "emoji": "🧥", "image": null },
+      { "id": "shorts", "vi": "Quần đùi", "en": "Shorts", "emoji": "🩳", "image": null },
+      { "id": "coat", "vi": "Áo măng tô", "en": "Coat", "emoji": "🥼", "image": null }
+    ]
+  },
+  {
+    "id": "food",
+    "title": "Food",
+    "titleVi": "Thức ăn",
+    "color": "#E0C3FC",
+    "icon": "🍔",
+    "cards": [
+      { "id": "bread", "vi": "Bánh mì", "en": "Bread", "emoji": "🍞", "image": null },
+      { "id": "rice", "vi": "Cơm", "en": "Rice", "emoji": "🍚", "image": null },
+      { "id": "egg", "vi": "Quả trứng", "en": "Egg", "emoji": "🥚", "image": null },
+      { "id": "meat", "vi": "Thịt", "en": "Meat", "emoji": "🥩", "image": null },
+      { "id": "fish", "vi": "Con cá", "en": "Fish", "emoji": "🐟", "image": null },
+      { "id": "chicken", "vi": "Gà", "en": "Chicken", "emoji": "🍗", "image": null },
+      { "id": "soup", "vi": "Món súp", "en": "Soup", "emoji": "🍲", "image": null },
+      { "id": "milk", "vi": "Sữa", "en": "Milk", "emoji": "🥛", "image": null },
+      { "id": "cheese", "vi": "Phô mai", "en": "Cheese", "emoji": "🧀", "image": null },
+      { "id": "cake", "vi": "Bánh ngọt", "en": "Cake", "emoji": "🍰", "image": null }
+    ]
+  },
+  {
+    "id": "toy",
+    "title": "Toys",
+    "titleVi": "Đồ chơi",
+    "color": "#8EC5FC",
+    "icon": "🧸",
+    "cards": [
+      { "id": "ball", "vi": "Quả bóng", "en": "Ball", "emoji": "⚽", "image": null },
+      { "id": "doll", "vi": "Búp bê", "en": "Doll", "emoji": "🎎", "image": null },
+      { "id": "car", "vi": "Ô tô", "en": "Car", "emoji": "🚗", "image": null },
+      { "id": "block", "vi": "Khối xếp hình", "en": "Block", "emoji": "🧱", "image": null },
+      { "id": "teddy", "vi": "Gấu bông", "en": "Teddy Bear", "emoji": "🧸", "image": null },
+      { "id": "kite", "vi": "Cái diều", "en": "Kite", "emoji": "🪁", "image": null },
+      { "id": "puzzle", "vi": "Bộ xếp hình", "en": "Puzzle", "emoji": "🧩", "image": null },
+      { "id": "train", "vi": "Tàu hỏa", "en": "Train", "emoji": "🚂", "image": null },
+      { "id": "robot", "vi": "Người máy", "en": "Robot", "emoji": "🤖", "image": null },
+      { "id": "yoyo", "vi": "Yô-yô", "en": "Yo-yo", "emoji": "🪀", "image": null }
+    ]
+  }
+]
