@@ -378,5 +378,385 @@
       { "id": "silly", "vi": "Buồn cười", "en": "Silly", "emoji": "🤪", "image": null },
       { "id": "love", "vi": "Yêu thương", "en": "Love", "emoji": "🥰", "image": null }
     ]
+  },
+  {
+    "id": "farm_animal",
+    "title": "Farm Animals",
+    "titleVi": "Động vật trang trại",
+    "color": "#FFCC99",
+    "icon": "🐄",
+    "cards": [
+      { "id": "cow", "vi": "Con bò", "en": "Cow", "emoji": "🐄", "image": null },
+      { "id": "pig", "vi": "Con lợn", "en": "Pig", "emoji": "🐖", "image": null },
+      { "id": "chicken2", "vi": "Con gà", "en": "Chicken", "emoji": "🐓", "image": null },
+      { "id": "duck2", "vi": "Con vịt", "en": "Duck", "emoji": "🦆", "image": null },
+      { "id": "sheep", "vi": "Con cừu", "en": "Sheep", "emoji": "🐑", "image": null },
+      { "id": "goat", "vi": "Con dê", "en": "Goat", "emoji": "🐐", "image": null },
+      { "id": "horse", "vi": "Con ngựa", "en": "Horse", "emoji": "🐎", "image": null },
+      { "id": "turkey", "vi": "Con gà tây", "en": "Turkey", "emoji": "🦃", "image": null },
+      { "id": "rabbit2", "vi": "Con thỏ", "en": "Rabbit", "emoji": "🐇", "image": null },
+      { "id": "rooster", "vi": "Con gà trống", "en": "Rooster", "emoji": "🐓", "image": null }
+    ]
+  },
+  {
+    "id": "job",
+    "title": "Jobs",
+    "titleVi": "Nghề nghiệp",
+    "color": "#BBDED6",
+    "icon": "👨‍⚕️",
+    "cards": [
+      { "id": "doctor", "vi": "Bác sĩ", "en": "Doctor", "emoji": "👨‍⚕️", "image": null },
+      { "id": "teacher", "vi": "Giáo viên", "en": "Teacher", "emoji": "👩‍🏫", "image": null },
+      { "id": "police", "vi": "Cảnh sát", "en": "Police Officer", "emoji": "👮", "image": null },
+      { "id": "firefighter", "vi": "Lính cứu hỏa", "en": "Firefighter", "emoji": "👨‍🚒", "image": null },
+      { "id": "chef", "vi": "Đầu bếp", "en": "Chef", "emoji": "👨‍🍳", "image": null },
+      { "id": "farmer", "vi": "Nông dân", "en": "Farmer", "emoji": "👨‍🌾", "image": null },
+      { "id": "pilot", "vi": "Phi công", "en": "Pilot", "emoji": "👨‍✈️", "image": null },
+      { "id": "dentist", "vi": "Nha sĩ", "en": "Dentist", "emoji": "🦷", "image": null },
+      { "id": "artist", "vi": "Họa sĩ", "en": "Artist", "emoji": "🎨", "image": null },
+      { "id": "musician", "vi": "Nhạc sĩ", "en": "Musician", "emoji": "🎸", "image": null }
+    ]
+  },
+  {
+    "id": "nature",
+    "title": "Nature",
+    "titleVi": "Thiên nhiên",
+    "color": "#C3E0E5",
+    "icon": "⛰️",
+    "cards": [
+      { "id": "mountain", "vi": "Ngọn núi", "en": "Mountain", "emoji": "⛰️", "image": null },
+      { "id": "river", "vi": "Dòng sông", "en": "River", "emoji": "🏞️", "image": null },
+      { "id": "ocean", "vi": "Đại dương", "en": "Ocean", "emoji": "🌊", "image": null },
+      { "id": "forest", "vi": "Khu rừng", "en": "Forest", "emoji": "🌳", "image": null },
+      { "id": "volcano", "vi": "Núi lửa", "en": "Volcano", "emoji": "🌋", "image": null },
+      { "id": "desert", "vi": "Sa mạc", "en": "Desert", "emoji": "🏜️", "image": null },
+      { "id": "island", "vi": "Hòn đảo", "en": "Island", "emoji": "🏝️", "image": null },
+      { "id": "waterfall", "vi": "Thác nước", "en": "Waterfall", "emoji": "⛲", "image": null },
+      { "id": "cave", "vi": "Hang động", "en": "Cave", "emoji": "🕳️", "image": null },
+      { "id": "field", "vi": "Cánh đồng", "en": "Field", "emoji": "🌾", "image": null }
+    ]
+  },
+  {
+    "id": "furniture",
+    "title": "Furniture",
+    "titleVi": "Đồ nội thất",
+    "color": "#FAE1DD",
+    "icon": "🪑",
+    "cards": [
+      { "id": "table", "vi": "Cái bàn", "en": "Table", "emoji": "table", "image": null },
+      { "id": "chair", "vi": "Cái ghế", "en": "Chair", "emoji": "🪑", "image": null },
+      { "id": "bed", "vi": "Cái giường", "en": "Bed", "emoji": "🛏️", "image": null },
+      { "id": "sofa", "vi": "Ghế sofa", "en": "Sofa", "emoji": "🛋️", "image": null },
+      { "id": "lamp", "vi": "Cái đèn", "en": "Lamp", "emoji": "💡", "image": null },
+      { "id": "closet", "vi": "Tủ quần áo", "en": "Closet", "emoji": "🚪", "image": null },
+      { "id": "bookshelf", "vi": "Kệ sách", "en": "Bookshelf", "emoji": "📚", "image": null },
+      { "id": "mirror", "vi": "Cái gương", "en": "Mirror", "emoji": "🪞", "image": null },
+      { "id": "clock", "vi": "Đồng hồ", "en": "Clock", "emoji": "⏰", "image": null },
+      { "id": "rug", "vi": "Thảm trải sàn", "en": "Rug", "emoji": "🧶", "image": null }
+    ]
+  },
+  {
+    "id": "electronics",
+    "title": "Electronics",
+    "titleVi": "Đồ điện tử",
+    "color": "#D8E2DC",
+    "icon": "💻",
+    "cards": [
+      { "id": "phone", "vi": "Điện thoại", "en": "Phone", "emoji": "📱", "image": null },
+      { "id": "computer", "vi": "Máy tính", "en": "Computer", "emoji": "💻", "image": null },
+      { "id": "tablet", "vi": "Máy tính bảng", "en": "Tablet", "emoji": "📲", "image": null },
+      { "id": "tv", "vi": "Tivi", "en": "Television", "emoji": "📺", "image": null },
+      { "id": "headphones", "vi": "Tai nghe", "en": "Headphones", "emoji": "🎧", "image": null },
+      { "id": "camera", "vi": "Máy ảnh", "en": "Camera", "emoji": "📷", "image": null },
+      { "id": "watch", "vi": "Đồng hồ đeo tay", "en": "Watch", "emoji": "⌚", "image": null },
+      { "id": "speaker", "vi": "Loa", "en": "Speaker", "emoji": "🔊", "image": null },
+      { "id": "gamepad", "vi": "Tay cầm chơi game", "en": "Gamepad", "emoji": "🎮", "image": null },
+      { "id": "laptop", "vi": "Máy tính xách tay", "en": "Laptop", "emoji": "💻", "image": null }
+    ]
+  },
+  {
+    "id": "bathroom",
+    "title": "Bathroom",
+    "titleVi": "Nhà tắm",
+    "color": "#ECE4DB",
+    "icon": "🧼",
+    "cards": [
+      { "id": "soap", "vi": "Xà phòng", "en": "Soap", "emoji": "🧼", "image": null },
+      { "id": "towel", "vi": "Cái khăn", "en": "Towel", "emoji": "🧻", "image": null },
+      { "id": "toothbrush", "vi": "Bàn chải", "en": "Toothbrush", "emoji": "🪥", "image": null },
+      { "id": "toothpaste", "vi": "Kem đánh răng", "en": "Toothpaste", "emoji": "🦷", "image": null },
+      { "id": "shampoo", "vi": "Dầu gội", "en": "Shampoo", "emoji": "🧴", "image": null },
+      { "id": "shower", "vi": "Vòi hoa sen", "en": "Shower", "emoji": "🚿", "image": null },
+      { "id": "bathtub", "vi": "Bồn tắm", "en": "Bathtub", "emoji": "🛁", "image": null },
+      { "id": "toilet", "vi": "Bồn cầu", "en": "Toilet", "emoji": "🚽", "image": null },
+      { "id": "sink", "vi": "Bồn rửa mặt", "en": "Sink", "emoji": "🚰", "image": null },
+      { "id": "comb", "vi": "Cái lược", "en": "Comb", "emoji": "🪮", "image": null }
+    ]
+  },
+  {
+    "id": "kitchen",
+    "title": "Kitchen",
+    "titleVi": "Phòng bếp",
+    "color": "#FFE5D9",
+    "icon": "🍳",
+    "cards": [
+      { "id": "pot", "vi": "Cái nồi", "en": "Pot", "emoji": "🍲", "image": null },
+      { "id": "pan", "vi": "Cái chảo", "en": "Pan", "emoji": "🍳", "image": null },
+      { "id": "knife", "vi": "Con dao", "en": "Knife", "emoji": "🔪", "image": null },
+      { "id": "spoon", "vi": "Cái thìa", "en": "Spoon", "emoji": "🥄", "image": null },
+      { "id": "fork", "vi": "Cái dĩa", "en": "Fork", "emoji": "🍴", "image": null },
+      { "id": "plate", "vi": "Cái đĩa", "en": "Plate", "emoji": "🍽️", "image": null },
+      { "id": "cup", "vi": "Cái cốc", "en": "Cup", "emoji": "🥤", "image": null },
+      { "id": "fridge", "vi": "Tủ lạnh", "en": "Fridge", "emoji": "🧊", "image": null },
+      { "id": "oven", "vi": "Lò nướng", "en": "Oven", "emoji": "🍲", "image": null },
+      { "id": "toaster", "vi": "Máy nướng bánh", "en": "Toaster", "emoji": "🍞", "image": null }
+    ]
+  },
+  {
+    "id": "garden",
+    "title": "Garden",
+    "titleVi": "Sân vườn",
+    "color": "#D8E2DC",
+    "icon": "🌻",
+    "cards": [
+      { "id": "flower", "vi": "Bông hoa", "en": "Flower", "emoji": "🌻", "image": null },
+      { "id": "tree", "vi": "Cái cây", "en": "Tree", "emoji": "🌳", "image": null },
+      { "id": "leaf", "vi": "Chiếc lá", "en": "Leaf", "emoji": "🍃", "image": null },
+      { "id": "grass", "vi": "Bãi cỏ", "en": "Grass", "emoji": "🌱", "image": null },
+      { "id": "watering_can", "vi": "Bình tưới cây", "en": "Watering Can", "emoji": "🚿", "image": null },
+      { "id": "shovel2", "vi": "Cái xẻng", "en": "Shovel", "emoji": "🪓", "image": null },
+      { "id": "sun", "vi": "Mặt trời", "en": "Sun", "emoji": "☀️", "image": null },
+      { "id": "bee2", "vi": "Con ong", "en": "Bee", "emoji": "🐝", "image": null },
+      { "id": "fence", "vi": "Hàng rào", "en": "Fence", "emoji": "🚧", "image": null },
+      { "id": "pot2", "vi": "Chậu hoa", "en": "Flower Pot", "emoji": "🏺", "image": null }
+    ]
+  },
+  {
+    "id": "action",
+    "title": "Actions",
+    "titleVi": "Hành động",
+    "color": "#FFCAD4",
+    "icon": "🏃",
+    "cards": [
+      { "id": "run", "vi": "Chạy", "en": "Run", "emoji": "🏃", "image": null },
+      { "id": "jump", "vi": "Nhảy", "en": "Jump", "emoji": "🦘", "image": null },
+      { "id": "walk", "vi": "Đi bộ", "en": "Walk", "emoji": "🚶", "image": null },
+      { "id": "sleep", "vi": "Ngủ", "en": "Sleep", "emoji": "😴", "image": null },
+      { "id": "eat", "vi": "Ăn", "en": "Eat", "emoji": "🍽️", "image": null },
+      { "id": "drink", "vi": "Uống", "en": "Drink", "emoji": "🥤", "image": null },
+      { "id": "read", "vi": "Đọc", "en": "Read", "emoji": "📚", "image": null },
+      { "id": "write", "vi": "Viết", "en": "Write", "emoji": "📝", "image": null },
+      { "id": "laugh", "vi": "Cười", "en": "Laugh", "emoji": "😂", "image": null },
+      { "id": "cry", "vi": "Khóc", "en": "Cry", "emoji": "😢", "image": null }
+    ]
+  },
+  {
+    "id": "family",
+    "title": "Family",
+    "titleVi": "Gia đình",
+    "color": "#F4ACB7",
+    "icon": "👨‍👩‍👦",
+    "cards": [
+      { "id": "grandfather", "vi": "Ông nội / Ông ngoại", "en": "Grandfather", "emoji": "👴", "image": null },
+      { "id": "grandmother", "vi": "Bà nội / Bà ngoại", "en": "Grandmother", "emoji": "👵", "image": null },
+      { "id": "father", "vi": "Bố / Ba", "en": "Father", "emoji": "👨", "image": null },
+      { "id": "mother", "vi": "Mẹ", "en": "Mother", "emoji": "👩", "image": null },
+      { "id": "brother", "vi": "Anh / Em trai", "en": "Brother", "emoji": "👦", "image": null },
+      { "id": "sister", "vi": "Chị / Em gái", "en": "Sister", "emoji": "👧", "image": null },
+      { "id": "baby", "vi": "Em bé", "en": "Baby", "emoji": "👶", "image": null },
+      { "id": "uncle", "vi": "Chú / Bác", "en": "Uncle", "emoji": "👨", "image": null },
+      { "id": "aunt", "vi": "Cô / Dì / Bác", "en": "Aunt", "emoji": "👩", "image": null },
+      { "id": "family_group", "vi": "Cả nhà", "en": "Family", "emoji": "👨‍👩‍👧‍👦", "image": null }
+    ]
+  },
+  {
+    "id": "place",
+    "title": "Places",
+    "titleVi": "Địa điểm",
+    "color": "#D8E2DC",
+    "icon": "🏥",
+    "cards": [
+      { "id": "school2", "vi": "Trường học", "en": "School", "emoji": "🏫", "image": null },
+      { "id": "hospital", "vi": "Bệnh viện", "en": "Hospital", "emoji": "🏥", "image": null },
+      { "id": "park", "vi": "Công viên", "en": "Park", "emoji": "🌳", "image": null },
+      { "id": "supermarket", "vi": "Siêu thị", "en": "Supermarket", "emoji": "🛒", "image": null },
+      { "id": "library", "vi": "Thư viện", "en": "Library", "emoji": "📚", "image": null },
+      { "id": "zoo", "vi": "Sở thú", "en": "Zoo", "emoji": "🦁", "image": null },
+      { "id": "beach", "vi": "Bãi biển", "en": "Beach", "emoji": "🏖️", "image": null },
+      { "id": "restaurant", "vi": "Nhà hàng", "en": "Restaurant", "emoji": "🍴", "image": null },
+      { "id": "bank", "vi": "Ngân hàng", "en": "Bank", "emoji": "🏦", "image": null },
+      { "id": "cinema", "vi": "Rạp chiếu phim", "en": "Cinema", "emoji": "🎬", "image": null }
+    ]
+  },
+  {
+    "id": "public_transport",
+    "title": "Public Transport",
+    "titleVi": "Phương tiện công cộng",
+    "color": "#FFE5D9",
+    "icon": "🚌",
+    "cards": [
+      { "id": "bus2", "vi": "Xe buýt", "en": "Bus", "emoji": "🚌", "image": null },
+      { "id": "train2", "vi": "Tàu hỏa", "en": "Train", "emoji": "🚆", "image": null },
+      { "id": "taxi2", "vi": "Xe taxi", "en": "Taxi", "emoji": "🚕", "image": null },
+      { "id": "subway", "vi": "Tàu điện ngầm", "en": "Subway", "emoji": "🚇", "image": null },
+      { "id": "tram", "vi": "Xe điện", "en": "Tram", "emoji": "🚋", "image": null },
+      { "id": "ferry", "vi": "Phà", "en": "Ferry", "emoji": "⛴️", "image": null },
+      { "id": "trolleybus", "vi": "Xe buýt điện", "en": "Trolleybus", "emoji": "🚎", "image": null },
+      { "id": "cable_car", "vi": "Cáp treo", "en": "Cable Car", "emoji": "🚡", "image": null },
+      { "id": "ship2", "vi": "Con tàu thủy", "en": "Ship", "emoji": "🚢", "image": null },
+      { "id": "monorail", "vi": "Tàu một ray", "en": "Monorail", "emoji": "🚝", "image": null }
+    ]
+  },
+  {
+    "id": "season",
+    "title": "Seasons",
+    "titleVi": "Các mùa trong năm",
+    "color": "#FADCD9",
+    "icon": "📅",
+    "cards": [
+      { "id": "spring", "vi": "Mùa xuân", "en": "Spring", "emoji": "🌸", "image": null },
+      { "id": "summer", "vi": "Mùa hạ / Mùa hè", "en": "Summer", "emoji": "☀️", "image": null },
+      { "id": "autumn", "vi": "Mùa thu", "en": "Autumn", "emoji": "🍂", "image": null },
+      { "id": "winter", "vi": "Mùa đông", "en": "Winter", "emoji": "❄️", "image": null },
+      { "id": "month", "vi": "Tháng", "en": "Month", "emoji": "📅", "image": null },
+      { "id": "week", "vi": "Tuần", "en": "Week", "emoji": "🗓️", "image": null },
+      { "id": "year", "vi": "Năm", "en": "Year", "emoji": "🎆", "image": null },
+      { "id": "morning", "vi": "Buổi sáng", "en": "Morning", "emoji": "🌅", "image": null },
+      { "id": "afternoon", "vi": "Buổi chiều", "en": "Afternoon", "emoji": "☀️", "image": null },
+      { "id": "evening", "vi": "Buổi tối", "en": "Evening", "emoji": "🌙", "image": null }
+    ]
+  },
+  {
+    "id": "daily_routine",
+    "title": "Daily Routine",
+    "titleVi": "Hoạt động hàng ngày",
+    "color": "#D8E2DC",
+    "icon": "🌅",
+    "cards": [
+      { "id": "wake_up", "vi": "Thức dậy", "en": "Wake up", "emoji": "⏰", "image": null },
+      { "id": "wash_face", "vi": "Rửa mặt", "en": "Wash face", "emoji": "🧼", "image": null },
+      { "id": "brush_teeth", "vi": "Đánh răng", "en": "Brush teeth", "emoji": "🪥", "image": null },
+      { "id": "get_dressed", "vi": "Mặc quần áo", "en": "Get dressed", "emoji": "👕", "image": null },
+      { "id": "breakfast2", "vi": "Ăn sáng", "en": "Have breakfast", "emoji": "🍳", "image": null },
+      { "id": "go_to_school", "vi": "Đi học", "en": "Go to school", "emoji": "🚌", "image": null },
+      { "id": "study", "vi": "Học bài", "en": "Study", "emoji": "📚", "image": null },
+      { "id": "play", "vi": "Chơi đùa", "en": "Play", "emoji": "🎮", "image": null },
+      { "id": "take_bath", "vi": "Đi tắm", "en": "Take a bath", "emoji": "🛁", "image": null },
+      { "id": "go_to_bed", "vi": "Đi ngủ", "en": "Go to bed", "emoji": "😴", "image": null }
+    ]
+  },
+  {
+    "id": "dessert",
+    "title": "Desserts",
+    "titleVi": "Món tráng miệng",
+    "color": "#FFE5D9",
+    "icon": "🍰",
+    "cards": [
+      { "id": "ice_cream", "vi": "Kem", "en": "Ice cream", "emoji": "🍦", "image": null },
+      { "id": "cookie", "vi": "Bánh quy", "en": "Cookie", "emoji": "🍪", "image": null },
+      { "id": "chocolate", "vi": "Sô-cô-la", "en": "Chocolate", "emoji": "🍫", "image": null },
+      { "id": "candy", "vi": "Kẹo", "en": "Candy", "emoji": "🍬", "image": null },
+      { "id": "donut", "vi": "Bánh vòng", "en": "Donut", "emoji": "🍩", "image": null },
+      { "id": "cupcake", "vi": "Bánh cupcake", "en": "Cupcake", "emoji": "🧁", "image": null },
+      { "id": "pudding", "vi": "Bánh pudding", "en": "Pudding", "emoji": "🍮", "image": null },
+      { "id": "honey", "vi": "Mật ong", "en": "Honey", "emoji": "🍯", "image": null },
+      { "id": "jam", "vi": "Mứt", "en": "Jam", "emoji": "🍓", "image": null },
+      { "id": "pie", "vi": "Bánh pie", "en": "Pie", "emoji": "🥧", "image": null }
+    ]
+  },
+  {
+    "id": "breakfast",
+    "title": "Breakfast",
+    "titleVi": "Bữa sáng",
+    "color": "#ECE4DB",
+    "icon": "🍳",
+    "cards": [
+      { "id": "toast", "vi": "Bánh mì nướng", "en": "Toast", "emoji": "🍞", "image": null },
+      { "id": "cereal", "vi": "Ngũ cốc", "en": "Cereal", "emoji": "🥣", "image": null },
+      { "id": "pancake", "vi": "Bánh pancake", "en": "Pancake", "emoji": "🥞", "image": null },
+      { "id": "sausage", "vi": "Xúc xích", "en": "Sausage", "emoji": "🌭", "image": null },
+      { "id": "bacon", "vi": "Thịt xông khói", "en": "Bacon", "emoji": "🥓", "image": null },
+      { "id": "juice", "vi": "Nước trái cây", "en": "Juice", "emoji": "🧃", "image": null },
+      { "id": "coffee", "vi": "Cà phê", "en": "Coffee", "emoji": "☕", "image": null },
+      { "id": "tea", "vi": "Trà", "en": "Tea", "emoji": "🍵", "image": null },
+      { "id": "croissant", "vi": "Bánh sừng bò", "en": "Croissant", "emoji": "🥐", "image": null },
+      { "id": "waffle", "vi": "Bánh waffle", "en": "Waffle", "emoji": "🧇", "image": null }
+    ]
+  },
+  {
+    "id": "tool",
+    "title": "Tools",
+    "titleVi": "Dụng cụ",
+    "color": "#D8E2DC",
+    "icon": "🛠️",
+    "cards": [
+      { "id": "hammer", "vi": "Cái búa", "en": "Hammer", "emoji": "🔨", "image": null },
+      { "id": "screwdriver", "vi": "Tua vít", "en": "Screwdriver", "emoji": "🪛", "image": null },
+      { "id": "wrench", "vi": "Cờ lê", "en": "Wrench", "emoji": "🔧", "image": null },
+      { "id": "saw", "vi": "Cái cưa", "en": "Saw", "emoji": "🪚", "image": null },
+      { "id": "pliers", "vi": "Cái kìm", "en": "Pliers", "emoji": "⛑️", "image": null },
+      { "id": "drill", "vi": "Máy khoan", "en": "Drill", "emoji": "🔩", "image": null },
+      { "id": "axe", "vi": "Cái rìu", "en": "Axe", "emoji": "🪓", "image": null },
+      { "id": "tape_measure", "vi": "Thước cuộn", "en": "Tape Measure", "emoji": "📏", "image": null },
+      { "id": "ladder", "vi": "Cái thang", "en": "Ladder", "emoji": "🪜", "image": null },
+      { "id": "paint_brush", "vi": "Cây cọ sơn", "en": "Paint Brush", "emoji": "🖌️", "image": null }
+    ]
+  },
+  {
+    "id": "hobby",
+    "title": "Hobbies",
+    "titleVi": "Sở thích",
+    "color": "#FFE5D9",
+    "icon": "🎨",
+    "cards": [
+      { "id": "painting", "vi": "Vẽ tranh", "en": "Painting", "emoji": "🎨", "image": null },
+      { "id": "singing", "vi": "Hát", "en": "Singing", "emoji": "🎤", "image": null },
+      { "id": "dancing", "vi": "Nhảy múa", "en": "Dancing", "emoji": "💃", "image": null },
+      { "id": "fishing", "vi": "Câu cá", "en": "Fishing", "emoji": "🎣", "image": null },
+      { "id": "cooking", "vi": "Nấu ăn", "en": "Cooking", "emoji": "🍳", "image": null },
+      { "id": "gardening", "vi": "Làm vườn", "en": "Gardening", "emoji": "🌻", "image": null },
+      { "id": "photography", "vi": "Chụp ảnh", "en": "Photography", "emoji": "📷", "image": null },
+      { "id": "traveling", "vi": "Du lịch", "en": "Traveling", "emoji": "✈️", "image": null },
+      { "id": "chess", "vi": "Chơi cờ", "en": "Chess", "emoji": "♟️", "image": null },
+      { "id": "skating", "vi": "Trượt khiên", "en": "Skating", "emoji": "🛼", "image": null }
+    ]
+  },
+  {
+    "id": "geography",
+    "title": "Geography",
+    "titleVi": "Địa lý",
+    "color": "#D8E2DC",
+    "icon": "🗺️",
+    "cards": [
+      { "id": "map", "vi": "Bản đồ", "en": "Map", "emoji": "🗺️", "image": null },
+      { "id": "earth", "vi": "Trái đất", "en": "Earth", "emoji": "🌍", "image": null },
+      { "id": "country", "vi": "Đất nước", "en": "Country", "emoji": "🏳️", "image": null },
+      { "id": "city", "vi": "Thành phố", "en": "City", "emoji": "🏙️", "image": null },
+      { "id": "flag", "vi": "Lá cờ", "en": "Flag", "emoji": "🚩", "image": null },
+      { "id": "river2", "vi": "Sông", "en": "River", "emoji": "🏞️", "image": null },
+      { "id": "forest2", "vi": "Rừng", "en": "Forest", "emoji": "🌳", "image": null },
+      { "id": "valley", "vi": "Thung lũng", "en": "Valley", "emoji": "🌄", "image": null },
+      { "id": "cliff", "vi": "Vách đá", "en": "Cliff", "emoji": "⛰️", "image": null },
+      { "id": "border", "vi": "Biên giới", "en": "Border", "emoji": "🛂", "image": null }
+    ]
+  },
+  {
+    "id": "hygiene",
+    "title": "Hygiene",
+    "titleVi": "Vệ sinh cá nhân",
+    "color": "#FADCD9",
+    "icon": "🪥",
+    "cards": [
+      { "id": "shower2", "vi": "Tắm vòi sen", "en": "Shower", "emoji": "🚿", "image": null },
+      { "id": "hand_wash", "vi": "Rửa tay", "en": "Hand wash", "emoji": "🧼", "image": null },
+      { "id": "nail_clipper", "vi": "Bấm móng tay", "en": "Nail clipper", "emoji": "✂️", "image": null },
+      { "id": "toilet_paper", "vi": "Giấy vệ sinh", "en": "Toilet paper", "emoji": "🧻", "image": null },
+      { "id": "mouthwash", "vi": "Nước súc miệng", "en": "Mouthwash", "emoji": "🧪", "image": null },
+      { "id": "dental_floss", "vi": "Chỉ nha khoa", "en": "Dental floss", "emoji": "🧵", "image": null },
+      { "id": "sunscreen", "vi": "Kem chống nắng", "en": "Sunscreen", "emoji": "🧴", "image": null },
+      { "id": "hair_brush", "vi": "Bàn chải tóc", "en": "Hair brush", "emoji": "🪮", "image": null },
+      { "id": "ear_cleaning", "vi": "Lấy ráy tai", "en": "Ear cleaning", "emoji": "👂", "image": null },
+      { "id": "deodorant", "vi": "Lăn khử mùi", "en": "Deodorant", "emoji": "🧴", "image": null }
+    ]
   }
 ]
