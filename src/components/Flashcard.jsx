@@ -28,9 +28,18 @@ const Flashcard = ({ card, isFlipped, onFlip }) => {
         
         {/* FRONT: Image or Emoji */}
         <div className="flashcard-face flashcard-front">
-          <div className="card-visual">
+          <div className="card-visual" style={{position: 'relative'}}>
             {card.image ? (
-              <img src={card.image} alt={card.en} className="card-image" />
+              <>
+                <img src={card.image} alt={card.en} className="card-image" />
+                {card.id === 'dog' && (
+                  <svg className="cute-bow-overlay" width="60" height="60" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M32 32C20 16 8 20 12 36C16 52 28 44 32 32Z" fill="#FF4D6D"/>
+                    <path d="M32 32C44 16 56 20 52 36C48 52 36 44 32 32Z" fill="#FF4D6D"/>
+                    <circle cx="32" cy="32" r="8" fill="#FFB3C6"/>
+                  </svg>
+                )}
+              </>
             ) : (
               <span className="card-emoji">{card.emoji}</span>
             )}
