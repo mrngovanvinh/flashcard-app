@@ -45,7 +45,14 @@ const FlashcardViewer = ({ topic, onBack }) => {
         handlePrev(); // Swipe right → previous card
       }
     } else if (Math.abs(deltaX) < 10 && Math.abs(deltaY) < 10) {
-      // It was a tap → flip the card
+      // If the user tapped a button (like audio), don't flip the card
+      if (e.target.closest('button')) {
+        touchStartX.current = null;
+        touchStartY.current = null;
+        return;
+      }
+      
+      // It was a tap elsewhere → flip the card
       setIsFlipped((prev) => !prev);
     }
 
