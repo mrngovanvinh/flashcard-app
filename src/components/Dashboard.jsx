@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Plus, Edit2, Trash2, X, ChevronRight, ArrowLeft } from 'lucide-react';
+import { Plus, Edit2, Trash2, X, ChevronRight, ArrowLeft, RefreshCw } from 'lucide-react';
+import topicsData from '../data/topics.json';
 
 const Dashboard = ({ topics, onUpdate, onClose }) => {
   const [selectedTopicId, setSelectedTopicId] = useState(null);
@@ -27,6 +28,16 @@ const Dashboard = ({ topics, onUpdate, onClose }) => {
     if (window.confirm("Bạn có chắc muốn xóa chủ đề này không?")) {
       onUpdate(topics.filter(t => t.id !== id));
       if (selectedTopicId === id) setSelectedTopicId(null);
+    }
+  };
+
+  const resetToDefaults = () => {
+    if (window.confirm("Bạn có chắc muốn đặt lại tất cả chủ đề về mặc định không? Các thẻ tự tạo sẽ bị xóa.")) {
+      onUpdate(topicsData);
+      setSelectedTopicId(null);
+      // Force version sync
+      localStorage.setItem('flashcards_version', "2.0");
+      alert("Đã đặt lại về 40 chủ đề mặc định!");
     }
   };
 
@@ -94,6 +105,11 @@ const Dashboard = ({ topics, onUpdate, onClose }) => {
                   </button>
                 </div>
               ))}
+            </div>
+            <div className="sidebar-footer">
+              <button className="reset-dash-btn" onClick={resetToDefaults}>
+                <RefreshCw size={14} /> Tải lại 40 chủ đề mặc định
+              </button>
             </div>
           </aside>
 

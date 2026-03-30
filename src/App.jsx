@@ -10,12 +10,18 @@ function App() {
   const [isManaging, setIsManaging] = useState(false);
 
   // Initialize topics from localStorage or fallback to default JSON
+  const DATA_VERSION = "2.0"; // Increment this when topics.json changes significantly
+
   useEffect(() => {
     const savedTopics = localStorage.getItem('flashcards_topics');
-    if (savedTopics) {
-      setTopics(JSON.parse(savedTopics));
-    } else {
+    const savedVersion = localStorage.getItem('flashcards_version');
+    
+    // If no saved data OR version mismatch (e.g. we added 20 new topics), load from JSON
+    if (!savedTopics || savedVersion !== DATA_VERSION) {
       setTopics(topicsData);
+      localStorage.setItem('flashcards_version', DATA_VERSION);
+    } else {
+      setTopics(JSON.parse(savedTopics));
     }
   }, []);
 
