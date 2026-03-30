@@ -28,9 +28,14 @@ const Flashcard = ({ card, isFlipped, onFlip }) => {
         
         {/* FRONT: Image or Emoji */}
         <div className="flashcard-face flashcard-front">
-          <div className="card-visual">
+          <div className="card-visual" style={card.id === 'cat' ? { backgroundColor: '#FFD166', borderRadius: '24px' } : {}}>
             {card.image ? (
-              <img src={card.image} alt={card.en} className="card-image" />
+              <img 
+                src={card.image} 
+                alt={card.en} 
+                className="card-image" 
+                style={card.id === 'cat' ? { mixBlendMode: 'multiply' } : {}} 
+              />
             ) : (
               <span className="card-emoji">{card.emoji}</span>
             )}
