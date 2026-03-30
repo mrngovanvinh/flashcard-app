@@ -1,7 +1,7 @@
 import React from "react";
+import { Settings } from "lucide-react";
 
-
-const TopicSelector = ({ topics, onSelect }) => {
+const TopicSelector = ({ topics, onSelect, onManage }) => {
   return (
     <div className="topic-selector-container">
       <h1 className="main-title">🌟 Thẻ Học Nhỏ Xinh 🌟</h1>
@@ -23,6 +23,13 @@ const TopicSelector = ({ topics, onSelect }) => {
           </button>
         ))}
       </div>
+
+      <footer className="selector-footer">
+        <button className="manage-btn" onClick={onManage}>
+          <Settings size={20} />
+          <span>Quản lý Thẻ Học (Dành cho Ba Mẹ)</span>
+        </button>
+      </footer>
     </div>
   );
 };
